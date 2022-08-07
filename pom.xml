@@ -36,10 +36,17 @@
         </license>
     </licenses>
 
+<!--    <scm>-->
+<!--        <url>https://github.com/hjhhjhhjh/strategyfactory</url>-->
+<!--        <connection>scm:git:https://github.com/hjhhjhhjh/strategyfactory.git</connection>-->
+<!--        <developerConnection>scm:ssh://git@github.com:hjhhjhhjh/strategyfactory.git</developerConnection>-->
+<!--        <tag>HEAD</tag>-->
+<!--    </scm>-->
+
     <scm>
-        <url>https://github.com/hjhhjhhjh/strategyfactory</url>
         <connection>scm:git:https://github.com/hjhhjhhjh/strategyfactory.git</connection>
-        <tag>HEAD</tag>
+        <url>http://github.com/hjhhjhhjh/strategyfactory</url>
+        <developerConnection>scm:git:http://github.com/hjhhjhhjh/strategyfactory.git</developerConnection>
     </scm>
 
 
@@ -141,5 +148,17 @@
         </profile>
     </profiles>
 
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+                <configuration>
+                    <tagNameFormat>v@{project.version}</tagNameFormat>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
