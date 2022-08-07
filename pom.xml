@@ -44,9 +44,9 @@
 <!--    </scm>-->
 
     <scm>
-        <connection>scm:git:https://github.com/hjhhjhhjh/strategyfactory.git</connection>
+        <connection>scm:git:git@github.com:hjhhjhhjh/strategyfactory.git</connection>
         <url>http://github.com/hjhhjhhjh/strategyfactory</url>
-        <developerConnection>scm:git:http://github.com/hjhhjhhjh/strategyfactory.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:hjhhjhhjh/strategyfactory.git</developerConnection>
     </scm>
 
 
