@@ -41,3 +41,4 @@ Thumbs.db
 *.ctxt
 
 # Mobile Tools for Java
+*.releaseBackup
