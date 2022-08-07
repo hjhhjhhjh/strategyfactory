@@ -1,0 +1,43 @@
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.ear
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+.myeclipse/
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+**rebel.xml
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+
+# Compiled class file
+*.class
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java
