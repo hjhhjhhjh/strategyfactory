@@ -38,7 +38,8 @@
 
     <scm>
         <url>https://github.com/hjhhjhhjh/strategyfactory</url>
-        <connection>https://github.com/hjhhjhhjh/strategyfactory.git</connection>
+        <connection>scm:git:https://github.com/hjhhjhhjh/strategyfactory.git</connection>
+        <tag>HEAD</tag>
     </scm>
 
 
