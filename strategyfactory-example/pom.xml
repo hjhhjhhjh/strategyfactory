@@ -4,17 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>strategyfactory-parent</artifactId>
-        <groupId>com.github.hjhhjhhjh</groupId>
+        <groupId>io.github.hjhhjhhjh</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.hjhhjhhjh.strategyfactory</groupId>
+    <groupId>io.github.hjhhjhhjh.strategyfactory</groupId>
     <artifactId>strategyfactory-example</artifactId>
 
     <name>strategyfactory-example</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 
     <properties>
         <maven.install.skip>true</maven.install.skip>
@@ -29,7 +27,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.hjhhjhhjh.strategyfactory</groupId>
+            <groupId>io.github.hjhhjhhjh.strategyfactory</groupId>
             <artifactId>strategyfactory-core</artifactId>
             <version>${project.version}</version>
         </dependency>
