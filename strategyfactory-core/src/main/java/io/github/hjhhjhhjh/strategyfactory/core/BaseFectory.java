@@ -1,4 +1,4 @@
-package com.github.hjhhjhhjh.strategyfactory.core;
+package io.github.hjhhjhhjh.strategyfactory.core;
 
 import java.util.HashMap;
 import java.util.Map;

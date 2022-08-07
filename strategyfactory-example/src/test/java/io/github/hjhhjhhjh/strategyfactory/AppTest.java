@@ -1,4 +1,4 @@
-package com.github.hjhhjhhjh.strategyfactory;
+package io.github.hjhhjhhjh.strategyfactory;
 
 import static org.junit.Assert.assertTrue;
 

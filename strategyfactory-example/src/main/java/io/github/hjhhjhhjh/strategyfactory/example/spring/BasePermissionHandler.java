@@ -1,6 +1,6 @@
-package com.github.hjhhjhhjh.strategyfactory.example.spring;
+package io.github.hjhhjhhjh.strategyfactory.example.spring;
 
-import com.github.hjhhjhhjh.strategyfactory.core.BaseHandlerKey;
+import io.github.hjhhjhhjh.strategyfactory.core.BaseHandlerKey;
 
 /**
  * @Author hjh

@@ -1,7 +1,7 @@
-package com.github.hjhhjhhjh.strategyfactory.spring;
+package io.github.hjhhjhhjh.strategyfactory.spring;
 
-import com.github.hjhhjhhjh.strategyfactory.core.BaseFectory;
-import com.github.hjhhjhhjh.strategyfactory.core.BaseHandlerKey;
+import io.github.hjhhjhhjh.strategyfactory.core.BaseFectory;
+import io.github.hjhhjhhjh.strategyfactory.core.BaseHandlerKey;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 

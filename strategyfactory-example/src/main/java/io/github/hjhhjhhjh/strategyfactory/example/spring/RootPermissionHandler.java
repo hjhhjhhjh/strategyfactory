@@ -1,4 +1,4 @@
-package com.github.hjhhjhhjh.strategyfactory.example.spring;
+package io.github.hjhhjhhjh.strategyfactory.example.spring;
 
 import org.springframework.stereotype.Component;
 
