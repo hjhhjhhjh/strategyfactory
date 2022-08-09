@@ -6,7 +6,7 @@
     <groupId>io.github.hjhhjhhjh</groupId>
     <artifactId>strategyfactory-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <modules>
         <module>strategyfactory-core</module>
         <module>strategyfactory-example</module>
@@ -47,7 +47,7 @@
         <connection>scm:git:git@github.com:hjhhjhhjh/strategyfactory.git</connection>
         <url>http://github.com/hjhhjhhjh/strategyfactory</url>
         <developerConnection>scm:git:git@github.com:hjhhjhhjh/strategyfactory.git</developerConnection>
-        <tag>v0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencyManagement>
