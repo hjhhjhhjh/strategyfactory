@@ -40,7 +40,7 @@ public ReduceBusiness implements Business{
     }
 }        
 //3.定义一个业务的工厂继承SpringAutowriteHandlerFactory
-@Autowrite
+@Component
 public class BusinessStrategyFactory extends SpringAutowriteHandlerFactory<String,Business>){}
 
 
