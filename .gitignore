@@ -42,3 +42,5 @@ Thumbs.db
 
 # Mobile Tools for Java
 *.releaseBackup
+release.properties
+
