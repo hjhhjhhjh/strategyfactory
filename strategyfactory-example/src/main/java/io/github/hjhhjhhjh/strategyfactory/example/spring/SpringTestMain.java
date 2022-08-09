@@ -5,9 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**
- * @Author hjh
- * @Description TODO
- * @Version 1.0
+ * @author hjh
+ * @version 1.0
  */
 @SpringBootApplication
 public class SpringTestMain {

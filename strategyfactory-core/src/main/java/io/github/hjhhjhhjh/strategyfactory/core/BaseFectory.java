@@ -4,9 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author hjh
- * @Description TODO
- * @Version 1.0
+ * @author hjh
+ * @version 1.0
  */
 public abstract class BaseFectory<E, T extends BaseHandlerKey<E>> {
     private final Map<E, T> listHandler = new HashMap<>();
@@ -18,7 +17,7 @@ public abstract class BaseFectory<E, T extends BaseHandlerKey<E>> {
     /**
      * 根据实例类型获取对应的处理类
      *
-     * @return
+     * @return T
      */
     public T getInstance(E type) {
         T handler = listHandler.get(type);

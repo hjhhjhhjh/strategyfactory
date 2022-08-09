@@ -9,9 +9,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author hjh
- * @Description TODO
- * @Version 1.0
+ * @author hjh
+ * @version 1.0
  */
 public abstract class SpringAutowriteHandlerFactory<E, T extends BaseHandlerKey<E>> extends BaseFectory<E, T> implements InitializingBean {
     /**
