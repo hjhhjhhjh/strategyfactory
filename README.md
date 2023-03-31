@@ -14,13 +14,13 @@ Spring使用方法:
 #### 
 ```java
 //1. 定义一个业务的接口继承BaseHandlerKey
-public Business extends BaseHandlerKey<String> {
+public interface Business extends BaseHandlerKey<String> {
     int handler(int a,int b);
 }
 
 //2.实现Business,例如 
 @Component
-public AddBusiness implements Business{
+public class AddBusiness implements Business{
     @Override
     public String getKey() {
         return "add";
@@ -30,7 +30,7 @@ public AddBusiness implements Business{
     }
 }
 @Component
-public ReduceBusiness implements Business{
+public class ReduceBusiness implements Business{
     @Override
     public String getKey() {
         return "reduce";
